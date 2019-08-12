@@ -50,10 +50,17 @@ h1 {
   font-weight: 900;
   margin-top: 3%;
   margin-bottom: 3%;
+  color: #f2d9b2;
 }
 
 h4 {
   margin: 1.5%;
+  color: #f2d9b2;
+  font-weight: 500;
+}
+
+p {
+  color: #f2d9b2;
 }
 
 form {
@@ -74,12 +81,8 @@ form {
   font-size: 100%;
 }
 
-#num {
-  width: 90%;
-}
-
 input, text, textarea {
-  color: silver;
+  color: #f2d9b2;
   background: transparent;
   font-weight: bold;
 }
@@ -89,29 +92,49 @@ input[type=text] {
   display: inline-block;
   box-sizing: border-box;
   margin-bottom: 3%;
-  color: silver;
-}
-
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
+  color: #f2d9b2;
 }
 
 ::placeholder {
-  color: silver;
+  color:#f2d9b2;
   text-align: center;
+}
+
+.submit {
+	/*-moz-box-shadow: 0px 4px 14px -7px #91b8b3;
+	-webkit-box-shadow: 0px 4px 14px -7px #91b8b3;*/
+	box-shadow: 0px 4px 14px -7px #91b8b3;
+	background-color: #eeb868;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color: #3a4455;
+	font-family:Arial;
+	font-size: 16px;
+	font-weight:bold;
+	padding:11px 16px;
+	text-decoration:none;
+	/*text-shadow:0px 0px 0px #2b665e;*/
+}
+
+.submit:active {
+	position:relative;
+	top:1px;
 }
 
 #sightings {
   font-size: 200%;
   font-weight: bolder;
+  color: #f2d9b2;
 }
 
 #pass-results {
   font-size: 125%;
   font-weight: bold;
   margin-top: 8%;
-  color: silver;
+  color: #f2d9b2;
 }
 
 footer {
